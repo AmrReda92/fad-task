@@ -1,8 +1,8 @@
+import 'package:fad_app/core/routes/app_routes.dart';
+import 'package:fad_app/core/routes/routes.dart';
 import 'package:fad_app/core/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import 'features/auth/presentation/ui/login_screen.dart';
 
 class FadTask extends StatelessWidget {
   const FadTask({super.key});
@@ -20,7 +20,8 @@ class FadTask extends StatelessWidget {
           useMaterial3: true,
           scaffoldBackgroundColor: AppColors.scaffoldBackground,
         ),
-        home: const LoginScreen(),
+        onGenerateRoute: AppRoutes.function,
+        initialRoute: Routes.loginScreen,
       ),
     );
   }
