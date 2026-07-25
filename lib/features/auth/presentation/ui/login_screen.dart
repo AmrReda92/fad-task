@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../../../core/shared_widgets/custom_elevated_button.dart';
 import '../../../../core/shared_widgets/custom_text_form_field.dart';
 import '../../../../core/theme/app_text_styles.dart';
 import '../widgets/login_header.dart';
@@ -52,6 +53,11 @@ class LoginScreen extends StatelessWidget {
                 ),
 
                 SizedBox(height: 24.h),
+
+                CustomElevatedButton(
+                  text: 'Login',
+                  onPressed: () {},
+                ),
 
 
 
