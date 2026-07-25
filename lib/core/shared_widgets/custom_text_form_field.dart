@@ -83,7 +83,7 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
             : null,
 
         filled: true,
-        fillColor: AppColors.white,
+        fillColor: Colors.white,
 
         contentPadding: EdgeInsets.symmetric(
           horizontal: 20.w,

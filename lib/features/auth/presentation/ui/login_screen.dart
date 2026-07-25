@@ -46,6 +46,7 @@ class _LoginScreenState extends State<LoginScreen> {
                  const LoginHeader(),
 
                   CustomTextFormField(
+                    controller: emailController,
                     validator: ValidatorService.validateEmail,
                     hintText: 'Email Address',
                     keyboardType: TextInputType.emailAddress,
@@ -56,6 +57,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   SizedBox(height: 20.h),
 
                   CustomTextFormField(
+                    controller: passwordController,
                     validator: ValidatorService.validatePassword,
                     hintText: 'Password',
                     obscureText: true,
