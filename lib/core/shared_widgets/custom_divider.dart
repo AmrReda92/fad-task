@@ -13,20 +13,22 @@ class CustomDivider extends StatelessWidget {
         Expanded(
           child: Divider(
             color: AppColors.divider,
-            thickness: 2.h,
+            thickness: 1.5,
           ),
         ),
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 12.w),
-          child: Text(
-            'or connect with',
-            style: AppTextStyles.font15RegularLightGrey,
+            padding: EdgeInsets.symmetric(horizontal: 8.w),
+            child: Text(
+              'or connect with',
+              style: AppTextStyles.font15RegularLightGrey,
+              textAlign: TextAlign.center,
+            ),
           ),
-        ),
+
         Expanded(
           child: Divider(
             color: AppColors.divider,
-            thickness: 2.h,
+            thickness: 1.5,
           ),
         ),
       ],

@@ -13,7 +13,7 @@ class LoginHeader extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
       children: [
-        SizedBox(height: 24.h),
+        SizedBox(height: 16.h),
 
         SvgPicture.asset(
             AppImages.loginLogo,
@@ -41,7 +41,7 @@ class LoginHeader extends StatelessWidget {
           style: AppTextStyles.font16MediumBlack,
         ),
 
-        SizedBox(height: 40.h),
+        SizedBox(height: 32.h),
       ],
     );
   }

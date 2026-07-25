@@ -35,8 +35,8 @@ class _LoginScreenState extends State<LoginScreen> {
         child: SingleChildScrollView(
           child: Padding(
             padding: EdgeInsets.symmetric(
-              horizontal: 24,
-              vertical: 20,
+              horizontal: 24.w,
+              vertical: 20.h,
             ),
             child: Form(
               key: formKey,
@@ -75,7 +75,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
 
-                  SizedBox(height: 24.h),
+                  SizedBox(height: 16.h),
 
                   CustomElevatedButton(
                     text: 'Login',
@@ -86,13 +86,14 @@ class _LoginScreenState extends State<LoginScreen> {
                     },
                   ),
 
-                  SizedBox(height: 40.h),
+                  SizedBox(height: 24.h),
 
                   const CustomDivider(),
 
-                  SizedBox(height: 30.h),
+                  SizedBox(height: 24.h),
 
                   SocialLogin(),
+                  SizedBox(height: 20.h),
 
                 ],
               ),
