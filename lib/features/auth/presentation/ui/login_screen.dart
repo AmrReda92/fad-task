@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../../../core/shared_widgets/custom_divider.dart';
 import '../../../../core/shared_widgets/custom_elevated_button.dart';
 import '../../../../core/shared_widgets/custom_text_form_field.dart';
 import '../../../../core/theme/app_text_styles.dart';
 import '../widgets/login_header.dart';
+import '../widgets/social_login.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -58,6 +60,14 @@ class LoginScreen extends StatelessWidget {
                   text: 'Login',
                   onPressed: () {},
                 ),
+
+                SizedBox(height: 40.h),
+
+                const CustomDivider(),
+
+                SizedBox(height: 30.h),
+
+                SocialLogin()
 
 
 
